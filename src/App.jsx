@@ -60,7 +60,7 @@ function App() {
             <div className="relative">
               <div className="absolute inset-0 blur-3xl bg-cyan-500/30 rounded-full"></div>
 
-              <div className="relative w-72 h-72 md:w-100 md:h-110 rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 p-2 overflow-hidden">
+              <div className="relative w-72 h-72md:w-[300px] md:h-[320px] rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 p-2 overflow-hidden">
                 <div className="w-full h-full rounded-full bg-slate-900 overflow-hidden">
                   <img
                     src={DP}
