@@ -51,7 +51,7 @@ function App() {
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 mt-4">{profile.role}</p>
             <p className="text-slate-400 mt-6 text-lg max-w-xl leading-relaxed">
-              A premium digital portfolio showcasing academics, technical skills, achievements, and personal excellence.
+              
             </p>
 
           </motion.div>
