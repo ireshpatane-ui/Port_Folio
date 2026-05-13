@@ -1,6 +1,6 @@
 import { Mail, User, GraduationCap, Code2, Heart, Trophy, MapPin, Camera, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
-// import DP from './assets/dp.png';
+import DP from './assets/dp.png';
 
 const profile = {
   name: 'Dipti Dipak Kshirsagar',
@@ -62,11 +62,11 @@ function App() {
 
               <div className="relative w-72 h-72md:w-[300px] md:h-[320px] rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 p-2 overflow-hidden">
                 <div className="w-full h-full rounded-full bg-slate-900 overflow-hidden">
-                  {/* <img
+                  <img
                     src={DP}
                     alt="Profile"
                     className="w-full h-full object-center object-cover rounded-full"
-                  /> */}
+                  />
                 </div>
               </div>
             </div>
